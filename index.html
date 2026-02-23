@@ -1,22 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-    <title>Reservasi Ruang - Cabdin Pasuruan</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memuat Aplikasi...</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
     <style>
-        body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; }
-        iframe { width: 100%; height: 100%; border: none; }
+        body { 
+            margin: 0; padding: 0; display: flex; justify-content: center; 
+            align-items: center; height: 100vh; background-color: #ffffff; 
+            font-family: sans-serif; color: #555;
+        }
+        .loader-container { text-align: center; }
+        .loader-img { width: 80px; height: auto; margin-bottom: 20px; }
+        .spinner {
+            border: 4px solid #f3f3f3; border-top: 4px solid #3498db;
+            border-radius: 50%; width: 30px; height: 30px;
+            animation: spin 1s linear infinite; margin: 0 auto;
+        }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
     </style>
+
+    <script>
+        window.location.href = "https://script.google.com/macros/s/AKfycbztT-Gazz_a52Xc0R5gh9Cu7NFXDbA6EL3sDkVcS3RjkoaBOPLOL4V09UgX_UgUnWL5Pw/exec";
+    </script>
 </head>
 <body>
-    <iframe src="https://script.google.com/macros/s/AKfycbztT-Gazz_a52Xc0R5gh9Cu7NFXDbA6EL3sDkVcS3RjkoaBOPLOL4V09UgX_UgUnWL5Pw/exec"></iframe>
+    <div class="loader-container">
+        <img src="logo-provinsi.png" class="loader-img" alt="Logo">
+        <div class="spinner"></div>
+        <p>Menuju Aplikasi...</p>
+    </div>
 </body>
-
 </html>
-
-
-
-
-
-
